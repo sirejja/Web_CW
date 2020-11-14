@@ -6,14 +6,17 @@
     font-family: 'Montserrat', sans-serif;
     max-width: 1500px;
   }
-  .text_contacts  h2 {
-    
+  .text_contacts  h3  {
     margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .text_contacts  h2  {
+    margin-bottom: 5px;
     margin-top: 30px;
   }
-  .text_contacts  h2, h3 {
-    
-    margin-bottom: 20px;
+
+  .text_contacts p {
+    font-size: 20px;
   }
   .adress {
     font-size: 20px;
@@ -23,15 +26,6 @@
       font-size: 14px;
     }
   }
-.hot_connection{
-  display: flex;
-  justify-content: space-evenly;
-}
-.hot_connection div {
-  width: 150px;
-  height: 150px;
-  
-}
 
 
 .crew {
