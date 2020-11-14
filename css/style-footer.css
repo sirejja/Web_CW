@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+   footer {
+    /*border: 1px solid blueviolet;*/ 
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #1b1b1b;  
+    }
+@media (min-width: 800px) {
+    .info-site {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-direction: row;
+    }
+    .foot-info-2 {
+        font-size: 25px;
+    }    
+    .foot-bottom {
+        font-size: 14px;
+        color: rgb(109, 108, 108);       
+        display: flex;
+        justify-content: space-between;
+        background-color: #000;
+    }
+    .f-b1 {
+        padding-right: 35%;
+    }
+    
+    .f-b2 {
+        padding-left: 30%;
+    }
+
+    .f-b2, .f-b1 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}
+
+
+.info-site {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.info-site div {
+    padding: 10px;
+    padding-left: 0;
+    border: none !important;
+}
+
+.box {
+   /* width: 30%; */
+   flex-basis: 30%;
+}
+
+.box a {
+  color: rgb(109, 108, 108);
+}
+
+.foot-info {
+    font-size: 16px;
+    color: #9E9E9E;
+}
+
+.foot-info-2 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 5px;
+    color: #fff;
+}
+
+.box i {
+    font-size: 25px;
+    padding: 4px;
+    color: rgb(109, 108, 108);
+}
+.ss i:hover {
+  color: #fff;
+}
+.box a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.ss_ {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+footer {
+  text-align: left;
+}
+
+
+.twi:hover {
+    color: #1602cf;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.inst:hover {
+    color: #a50334;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.vk:hover {
+    color: #028ecf;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.box {
+  border: 1px solid red;
+}
+
+hr {
+  background-color: rgb(109, 108, 108);
+}
+
+.f-b1, .f-b2 {
+    flex-basis: 48%;
+    color: rgb(109, 108, 108);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foot-bottom {
+  background-color: #000;
+}
