@@ -15,12 +15,61 @@
     text-align: center;
     margin-bottom: 20px;
   }
-  .text_contacts p {
-    text-align: justify;
+  .adress {
     font-size: 20px;
   }
-  @media (max-width: 800px) {
-    .text_contacts p {
+  @media (max-width: 650px) {
+  .adress {
       font-size: 14px;
     }
   }
+
+    .crew {
+      font-size: 30;
+    }
+    /*.container_members {
+      width: 1200px;
+      margin: 0 auto;
+    }*/
+    .members {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-around;
+    }
+    .member {
+      text-align: center;
+      flex-basis: 33%;
+      padding: 24px;
+      box-sizing: border-box;
+      margin-bottom: 30px;
+      
+    
+    }
+    .member-name {
+      margin: 0;
+      margin-top: 12px;
+      font-weight: 600;
+      font-size: 20px;
+      color: black;
+      position: relative;
+      text-align: center;
+    }
+    .member-role {
+      font-style: italic;
+      font-size: 16px;
+      text-align: center;
+    }
+    .round {
+        border-radius: 100px; /* Радиус скругления */
+        border: 3px; /* Параметры рамки */
+        box-shadow: 0 0 7px #666; /* Параметры тени */
+       }
+    .member_img {
+      object-fit: cover;
+      border-radius: '50%';
+      width: 150px;
+      height: 150px;
+    }
+
+
