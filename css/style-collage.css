@@ -1,0 +1,66 @@
+.collage {
+    margin: 20px 0 40px 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 2500px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.collage-text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 20%;
+}
+.collage-text p, ul {
+    font-size: 16px;
+}
+.collage-text li {
+    list-style-type: "―";
+    padding-left: 10px;
+}
+.collage-text ul {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.collage-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: 20px;
+}
+.collage-img img {
+    max-width: 1400px;
+}
+
+.collage .btn {
+    background: rgb(134, 4, 4);
+    color: #fff;
+    border-radius: 0;
+    transition: 0s;
+    padding: 5px 20px;
+    /*outline: none !important;*/
+}
+.collage .btn:hover {
+    background: rgb(177, 5, 5);
+}
+.collage .btn:active {
+    background:  rgb(95, 3, 3);
+}
+
+@media (max-width: 1100px) {
+    .collage-img {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .collage-img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .collage-text {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        padding-left: 5%;
+    }
+}
