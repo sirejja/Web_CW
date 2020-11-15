@@ -14,6 +14,8 @@
   <link rel="stylesheet" type="text/css" href="css/style-banner.css">
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+ 
 </head>
 <body>
   <div class="content">
